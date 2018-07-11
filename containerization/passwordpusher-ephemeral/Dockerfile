@@ -10,7 +10,7 @@ RUN ln -fs /usr/share/zoneinfo/Europe/Paris > /etc/localtime
 RUN apt-get update -qq && \
     apt-get install -y --assume-yes build-essential git curl ruby2.5 ruby2.5-dev tzdata sqlite3 ruby-sqlite3 libsqlite3-dev zlib1g-dev && \
     cd /opt && \
-    git clone https://github.com/pglombardo/PasswordPusher.git && \
+    git clone https://github.com/EJanssenLODS/PasswordPusher.git && \
     touch ${APP_ROOT}/log/private.log && \
     cd ${APP_ROOT} && \
     gem install bundler && \
