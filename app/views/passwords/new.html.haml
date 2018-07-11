@@ -2,9 +2,7 @@
 = form_for @password do |f|
   %p
     %div.title
-      %span.title Password Pusher
-      %br
-      %span.tagline Go Ahead.  Email Another Password.
+      %span.title Learn on Demand Systems Password Pusher
   %p.payload
     = f.text_field(:payload, { :class => "password", :value => PAYLOAD_INITIAL_TEXT, :onfocus => "prepareTextField(this)", :onblur => "revertTextField(this)", :autocomplete => "off" })
   %p
