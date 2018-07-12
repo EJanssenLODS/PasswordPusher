@@ -1,5 +1,5 @@
 GIT
-  remote: https://github.com/ejanssenLODS/pglombardo.git
+  remote: https://github.com/pglombardo/ezcrypto.git
   revision: 98c3f10131d0a2b941f3bdde153058c217f72842
   specs:
     ezcrypto (0.7.2)
