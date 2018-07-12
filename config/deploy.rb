@@ -1,5 +1,5 @@
 set :application, "PasswordPusher"
-set :repository,  "git@github.com:pglombardo/PasswordPusher.git"
+set :repository,  "git@github.com:ejanssenLODS/PasswordPusher.git"
 
 local_config = './config/deploy/local_cap_config.rb'
 abort "\e[0;31mERROR: To use capistrano with PasswordPusher, create and populate a [config/deploy/local_cap_config.rb] file.  See [config/deploy/local_cap_config.rb.example]." unless File.exists?(local_config)

@@ -18,14 +18,14 @@ The [PasswordPusher Alfred Workflow](http://www.packal.org/workflow/passwordpush
 
 PasswordPusher can be deployed to [Kubernetes](https://kubernetes.io/), [OpenShift](https://openshift.com/) or any [Docker](https://www.docker.com/) host.
 
-See the [containerization directory](https://github.com/pglombardo/PasswordPusher/tree/master/containerization) for details.  Docker images hosted in [docker.io/r/pglombardo](https://hub.docker.com/r/pglombardo/).
+See the [containerization directory](https://github.com/ejanssenLODS/PasswordPusher/tree/master/containerization) for details.  Docker images hosted in [docker.io/r/ejanssenLODS](https://hub.docker.com/r/ejanssenLODS/).
 
 ## Deploy Manually
 
 Make sure you have git and Ruby installed and then:
 
 ```sh
-git clone git@github.com:pglombardo/PasswordPusher.git
+git clone git@github.com:ejanssenLODS/PasswordPusher.git
 cd PasswordPusher
 gem install bundler
 bundle install --without development production test --deployment
@@ -37,7 +37,7 @@ foreman start internalweb
 Then view the site @ [http://localhost:5000/](http://localhost:5000/).
 
 _Note: You can change the listening port by modifying the
-[Procfile](https://github.com/pglombardo/PasswordPusher/blob/master/Procfile#L2)_
+[Procfile](https://github.com/ejanssenLODS/PasswordPusher/blob/master/Procfile#L2)_
 
 ### Troubleshooting
 
@@ -59,10 +59,10 @@ sudo apt-get install sqlite3 ruby-sqlite3 libsqlite3-ruby libsqlite3-dev
 
 ## Other Information
 
-* How to use the [Password API](https://github.com/pglombardo/PasswordPusher/wiki/Password-API)
-* How to [Change the Front Page Default Values](https://github.com/pglombardo/PasswordPusher/wiki/Changing-the-Front-Page-Default-Values)
-* How to [Switch to Production Environment](https://github.com/pglombardo/PasswordPusher/wiki/Switch-to-Production-Environment)
-* How to [Switch to Another Backend Database](https://github.com/pglombardo/PasswordPusher/wiki/Switch-to-Another-Backend-Database)
+* How to use the [Password API](https://github.com/ejanssenLODS/PasswordPusher/wiki/Password-API)
+* How to [Change the Front Page Default Values](https://github.com/ejanssenLODS/PasswordPusher/wiki/Changing-the-Front-Page-Default-Values)
+* How to [Switch to Production Environment](https://github.com/ejanssenLODS/PasswordPusher/wiki/Switch-to-Production-Environment)
+* How to [Switch to Another Backend Database](https://github.com/ejanssenLODS/PasswordPusher/wiki/Switch-to-Another-Backend-Database)
 
 ### Tip
 
@@ -74,23 +74,23 @@ For example, on [https://pwpush.com](https://pwpush.com), I run the application 
 
 *Initiated from [this discussion](http://www.reddit.com/r/sysadmin/comments/yxps8/passwordpusher_best_way_to_deliver_passwords_to/c5zwts9) on reddit.*
 
-See How to [Switch to Another Backend Database](https://github.com/pglombardo/PasswordPusher/wiki/Switch-to-Another-Backend-Database) for details.
+See How to [Switch to Another Backend Database](https://github.com/ejanssenLODS/PasswordPusher/wiki/Switch-to-Another-Backend-Database) for details.
 
 ## Note for Existing Users
 
 If you're already hosting your own private instance of PasswordPusher, make sure to do a periodic `git pull` from time to time to always get the latest updates. 
 
-You can always checkout out the [latest commits](https://github.com/pglombardo/PasswordPusher/commits/master) to see what's been updated recently.
+You can always checkout out the [latest commits](https://github.com/ejanssenLODS/PasswordPusher/commits/master) to see what's been updated recently.
 
 ## Credits
 
 Thanks to:
 
-* [@sfarosu](https://github.com/sfarosu) for [contributing](https://github.com/pglombardo/PasswordPusher/pull/82) the Docker, Kubernetes & OpenShift container support.
+* [@sfarosu](https://github.com/sfarosu) for [contributing](https://github.com/ejanssenLODS/PasswordPusher/pull/82) the Docker, Kubernetes & OpenShift container support.
 
 * [@iandunn](https://github.com/iandunn) for better password form security.
 
-* [Kasper 'kapöw' Grubbe](https://github.com/kaspergrubbe) for the [JSON POST fix](https://github.com/pglombardo/PasswordPusher/pull/3).
+* [Kasper 'kapöw' Grubbe](https://github.com/kaspergrubbe) for the [JSON POST fix](https://github.com/ejanssenLODS/PasswordPusher/pull/3).
 
 * [JarvisAndPi](http://www.reddit.com/user/JarvisAndPi) for the favicon design
 

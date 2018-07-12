@@ -7,7 +7,7 @@ Gem::Specification.new do |spec|
   spec.name          = "pwpush"
   spec.version       = '0.1.0'
   spec.authors       = ["Peter Giacomo Lombardo"]
-  spec.email         = ["pglombardo@gmail.com"]
+  spec.email         = ["evan.janssen@learnondemandsystems.com"]
 
   spec.summary       = %q{PasswordPusher is an opensource Ruby on Rails application to communicate passwords over the web.}
   spec.description   = %q{Links to passwords expire after a certain number of views and/or time has passed. Hosted at pwpush.com but you can also easily run your own instance internally or on Heroku with just a few steps.}

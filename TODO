@@ -11,7 +11,7 @@ Items are identifed with one of the following:
 [I] = Idea, possibility, thought
 
 Issues should be filed in the Github repo:
-https://github.com/pglombardo/PasswordPusher/issues
+https://github.com/ejanssenLODS/PasswordPusher/issues
 
 * [F] Add a password generator to the front page - John Connelly
 * [E] Change from using Rails to something much lighter such as Sinatra

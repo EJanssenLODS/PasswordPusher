@@ -58,7 +58,7 @@ objects:
       - type: ConfigChange
     source:
       git:
-        uri: https://github.com/pglombardo/PasswordPusher.git
+        uri: https://github.com/ejanssenLODS/PasswordPusher.git
     strategy:
       dockerStrategy:
         dockerfilePath: containerization/passwordpusher-openshift/Dockerfile
