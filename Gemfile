@@ -18,7 +18,7 @@ gem 'json', '~> 2.0'
 gem 'haml'
 gem 'haml-rails'
 gem 'therubyracer'
-gem 'ezcrypto', :git => 'https://github.com/ejanssenLODS/ezcrypto.git'
+gem 'ezcrypto', :git => 'https://github.com/pglombardo/ezcrypto.git'
 gem 'modernizr-rails', :git => 'https://github.com/russfrisch/modernizr-rails.git'
 gem "high_voltage"
 
