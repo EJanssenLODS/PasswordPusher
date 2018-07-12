@@ -30,7 +30,7 @@
     },
     "EXPIRE_AFTER_DAYS_DEFAULT": {
       "description": "Default value for expire after days",
-      "value": "7"
+      "value": "1"
     },
     "EXPIRE_AFTER_DAYS_MIN": {
       "description": "Expire after days minimum value",
@@ -38,11 +38,11 @@
     },
     "EXPIRE_AFTER_DAYS_MAX": {
       "description": "Expire after days maximum value",
-      "value": "90"
+      "value": "30"
     },
     "EXPIRE_AFTER_VIEWS_DEFAULT": {
       "description": "Expire after views default value",
-      "value": "5"
+      "value": "1"
     },
     "EXPIRE_AFTER_VIEWS_MIN": {
       "description": "Expire after views minimum value",
